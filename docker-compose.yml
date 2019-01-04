@@ -4,11 +4,8 @@ services:
     build: .
     ports:
      - "5000:5000"
-<<<<<<< HEAD
     volumes:
      - .:/code
-=======
->>>>>>> 05922f6d1d018d984b782df6321bf0e725bfa62f
-  redis:
+    redis:
     image: "redis:alpine"
     
