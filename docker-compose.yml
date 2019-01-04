@@ -11,3 +11,4 @@ services:
 >>>>>>> 05922f6d1d018d984b782df6321bf0e725bfa62f
   redis:
     image: "redis:alpine"
+    
